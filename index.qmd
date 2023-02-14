@@ -8,7 +8,7 @@ format:
     slide-number: true
     controls: true
     theme: [dark, css/custom.scss]
-    footer: "Hund"
+    footer: "Diese Folien: https://bit.ly/merk070"
 ---
 
 ## Herzlich Willkommen 🤗!
