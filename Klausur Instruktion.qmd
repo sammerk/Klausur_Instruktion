@@ -1,0 +1,67 @@
+---
+title: "Instruktionen zur Klausur"
+author: "André Epp & Samuel Merk"
+format: 
+  revealjs:
+    auto-slide: 9000
+    loop: true
+    slide-number: true
+    controls: true
+    theme: [dark, css/custom.scss]
+    footer: "Hund"
+---
+
+## Herzlich Willkommen 🤗!
+> In diesen Folien werden Ihnen alle relevanten Informationen zur Klausur angezeigt
+
+
+. . .
+
+<br>
+
+::: {.callout-note}
+## Wer soll wo hin?
+Nachname: *Aa* bis *Gen* $\Rightarrow$ Raum: 1.013  
+Nachname: *Ger* bis *Krol* $\Rightarrow$ Raum: 1.103   
+Nachname: *Kron* bis *Rad* $\Rightarrow$ Raum: 1.203   
+Nachname: *Rai* bis *Zzz* $\Rightarrow$ Raum: 1.113   
+:::
+
+```{r}
+# Change css to lecker PH green
+if(!dir.exists("img"))
+dir.create("img")
+if(!dir.exists("css"))
+dir.create("css")
+fileConn<-file("css/custom.scss")
+writeLines(c("/*-- scss:defaults --*/",
+             "$link-color: #8cd000 !default;"), fileConn)
+close(fileConn)
+```
+
+## Wie läuft die Klausur ab? {.smaller}
+1) Sie kommen nach vorne und lassen Ihren Studierendenausweis abfotografieren
+2) Sie tragen unter www.bit.ly/merk067 Matrikelnummer, Raumnummer, Name und Sitznummer ein
+3) Sie besetzen jeden zweiten Sitz in Ihrem Hörsaal (am Besten in der Mitte beginnen und nach außen auffüllen)
+4) Sie legen Ihren Studierendenausweis neben sich auf den Tisch
+5) Ab 18:00 rufen Sie die Klausur www.bit.ly/merk066 auf
+6) Sie beantworten alle Fragen richtig 😉
+7) Bitte alle der Fairness halber bis 19:15 sitzen bleiben
+
+## 
+::: {.callout-note icon=false}
+
+## Was ist erlaubt?
+Digitale und analoge Quellen. Also Aufschriebe, Webpages (auch deren Suche via Suchmaschinen)
+:::
+
+::: {.callout-important icon=true}
+## Was ist nicht erlaubt?
+Kommunikation mit „intelligenten Entitäten“ (z.B. Menschen, Siri, ChatGPT, Alexa, …).
+Lassen Sie also Mails, Chats, etc. geschlossen.
+:::
+
+::: {.callout-caution icon=true}
+## Was passiert wenn Sie cheaten?
+Um keine Störungen zu verursachen dokumentieren wir den Täuschungsversuch "still" (ohne Ihnen das direkt zu sagen) und verbuchen anschließend Ihre Studienleistung als nicht bestanden (dieses Vorgehen ist rechtssicher).
+:::
