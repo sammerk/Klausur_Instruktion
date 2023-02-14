@@ -40,7 +40,7 @@ close(fileConn)
 ```
 
 ## Wie läuft die Klausur ab? {.smaller}
-1) Sie kommen nach vorne und lassen Ihren Studierendenausweis abfotografieren
+1) Sie kommen nach vorne und lassen Ihren Studierendenausweis kontrollieren
 2) Sie tragen unter https://bit.ly/merk071 Matrikelnummer, Raumnummer, Name und Sitznummer ein
 3) Sie besetzen jeden nummerierten Sitz in Ihrem Hörsaal (am Besten in der Mitte beginnen und nach außen auffüllen)
 4) Sie legen Ihren Studierendenausweis neben sich auf den Tisch
